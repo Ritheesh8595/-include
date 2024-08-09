@@ -1,0 +1,117 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+body{
+    background-color: #161616 !important;
+    font-family: Raleway, sans-serif !important;
+  
+}
+/* navbar section */
+.navbar-section
+{
+    padding:2.5%;
+    max-width:90%;
+    margin: auto;
+}
+.navbar-nav
+{
+    display:flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.nav-item a
+{
+    font-size: 18px;
+}
+/* navbar-ends */
+/* about-us-section */
+section.about-us-section {
+    background-color: #212121;
+    margin: 15px 30px;
+  }
+  
+  p.about-us-info-p {
+    width: 75%;
+  }
+  
+  button.learn-more-btn1 {
+    border: 1px solid #f8da64;
+    padding: 5px 31px;
+  }
+  
+  button.learn-more-btn1:hover {
+    background: #f8da64;
+  }
+  
+  button.learn-more-btn1 a {
+    color: #f8da64;
+    font-size: 15px;
+  }
+  button.learn-more-btn1:hover a {
+    color: #000;
+  }
+  
+  div.hashinclude-stats-card h2 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+  
+  div.hashinclude-stats-card h2 span {
+    color: #f8da63;
+  }
+  .line-about-us
+  {
+    height: 1px;
+    display: block;
+    background: #fff;
+    width: 76%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .about-our-team {
+    padding: 4% 0%;
+}
+.about-us-para 
+{
+    max-width:40%;
+    margin:auto;
+    color:#a9aba9;
+    margin-top:10px;
+}
+ .each-card-text h2{
+  
+    font-size: 22px;
+    margin-bottom: 2px;
+    color: white;
+
+ }
+ .each-card-text p{
+  
+  color:white;
+  text-align: center;
+    font-size: 13px;
+ }
+ .each-card-text {
+  position: absolute;
+  /* top: 71px; */
+  top: 65px;
+  left: 43px;
+}
+.each-card-about {
+  position: relative;
+}
+
+footer.footer-section {
+  background-image: url("../assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+}
+/* footer section ends here */  
